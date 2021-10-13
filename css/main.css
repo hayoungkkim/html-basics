@@ -272,3 +272,14 @@ th {
 .custom-link:visited {
 	color: black;
 }
+
+.nav-container {
+	display: flex;
+	height: 40px;
+	align-items: center;
+	padding: 10px;
+}
+
+.nav-item {
+	margin-right: 10px;
+}
