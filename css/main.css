@@ -95,6 +95,14 @@
 }
 
 /* layout2.html */
+div {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
 .main-background {
 	width: 100%;
 	height: 500px;
@@ -128,4 +136,16 @@
 	right: 0;
 	margin: auto;
 	width: 150px;
+}
+
+.explain-box {
+	width: 80%;
+	max-width: 600px;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	background-color: #eee;
+	position: relative;
+	top: -40px;
+	box-sizing: border-box;
 }
