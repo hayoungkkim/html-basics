@@ -189,3 +189,13 @@ body {
 	display: block;
 	margin-left: auto;
 }
+
+/* cart.html */
+table {
+	border-collapse: collapse;
+}
+
+td,
+th {
+	border: 1px solid black;
+}
